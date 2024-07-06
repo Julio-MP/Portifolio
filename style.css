@@ -1,7 +1,10 @@
 /*Modo Dark*/ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
-    padding: 0; 
+    padding: 0;
+ 
 }
 
 body {
@@ -9,6 +12,21 @@ body {
     height: 100vh;
     background-color: #030b1d;
     color: rgb(247, 246, 236);
+    display: flex;
+}
+
+.Change {
+    background-color: aqua;
+    width: 230px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin: 20px 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
 }
 
 .Strong1 {
@@ -16,15 +34,82 @@ body {
 }
 
 .Containerimg {
-    max-width: 400px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
+    /* Imagem */
+    /*
+    position: absolute;
+    width: 488px;
+    height: 550px;
+    left: 1030px;
+    top: 235px;
+    */
+
+    
+    max-width: 600px;
+    max-height: 600px;
+    width: 550px;
+    height: 600;
+    
 }
 
 .Principal {
     display: flex;
     flex-direction: row;
     align-items: center;
- 
+    justify-content: space-between;
+    margin: 15%;
+    
+}
+
+
+.Principal__TextButton{
+    width: 600px;
+    top: 278px;
+    left: 357px;
+    gap: 0px;
+    opacity: 0px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+
+}
+
+.Principal__TextButton__h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.Principal__TextButton__p {
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Principal__TextButton__Buttons{
+    display: flex;
+}
+
+.Principal__TextButton__Buttons1 {
+    display: grid;
+    justify-content: space-between;
+}
+
+.Principal__TextButton__Buttons2 {
+    display: grid;
+    justify-content: space-between;
+}
+
+.Principal__TextButton__Buttons__Button {
+    background-color: aqua;
+    width: 230px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 8px 0;
+    color: black;
+    text-decoration: none;
+    margin: 20px 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
 }

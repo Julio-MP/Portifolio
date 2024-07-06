@@ -3,20 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="style.css">
     <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        
+        <button onclick="trocarTema()">Trocar Tema</button>
+
+        <script>
+            function trocarTema() {
+                const stylesheet = document.getElementById('theme-stylesheet');
+                if (stylesheet.getAttribute('href') === 'style.css') {
+                    stylesheet.setAttribute('href', 'style2.css');
+                } else {
+                    stylesheet.setAttribute('href', 'style.css');
+                }
+            }
+        </script>
     </header>
 
     <main class="Principal">
-        <h1>Hello! Welcome to <strong class="Strong1">my Portfolio!</strong></h1>
-        <p>Here you can find some of my finish projects</p>
-        <a href="https://julio-games.itch.io/">Play My Games!</a>
-        <a href="https://github.com/Julio-MP">Open my GitHub</a>
-        <img class="Containerimg" src="image.png" alt="Computer Science">
+        <section class="Principal__TextButton">
+            <h1 class="Principal__TextButton__h1">Hello! <br>Welcome to <strong id="Color" class="Strong1">my Portfolio!</strong></h1>
+            <p class="Principal__TextButton__p">Here you can find some of my finish projects and more</p>
+            <div class="Principal__TextButton__Buttons">
+                <div class="Principal__TextButton__Buttons1">
+                    <a id="Color" class="Principal__TextButton__Buttons__Button" href="https://julio-games.itch.io/">Play my Games!</a>
+                    <a id="Color" class="Principal__TextButton__Buttons__Button" href="https://github.com/Julio-MP">Open my GitHub</a>
+                </div>
+                <div class="Principal__TextButton__Buttons2">
+                    <a id="Color" class="Principal__TextButton__Buttons__Button" href="https://www.linkedin.com/in/julio-moreno-possebon/"> My LinkedIn</a>
+                    <a id="Color" class="Principal__TextButton__Buttons__Button" href="https://www.google.com"> About Me</a>
+                </div>
+            </div>
+        </section>
+        <img class="Containerimg" src="image1.png" alt="Computer Science">
     </main>
 
     <footer>
@@ -29,4 +53,9 @@
         <!--<a href="https://www.youtube.com">clique</a>
         <img src="html.png" alt="Logo">
         <p>Testando uma mudança para ver se da certo o commit</p>
-        <a href=""></a>-->
+        <a href=""></a>
+        
+        ATALHO LISTA
+        
+        li*ul*7-->
+
