@@ -87,6 +87,7 @@ body {
 
 .Principal__TextButton__Buttons{
     display: flex;
+    gap: 20px;
 }
 
 .Principal__TextButton__Buttons1 {
@@ -100,13 +101,14 @@ body {
 }
 
 .Principal__TextButton__Buttons__Button {
-    background-color: aqua;
+    /* background-color: aqua; */
+    border: 2px solid aqua;
     width: 230px;
     text-align: center;
     border-radius: 16px;
     font-size: 24px;
     padding: 8px 0;
-    color: black;
+    color: rgb(247, 246, 236);
     text-decoration: none;
     margin: 20px 5px;
     font-family: "Montserrat", sans-serif;
