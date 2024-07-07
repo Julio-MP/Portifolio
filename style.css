@@ -115,3 +115,22 @@ body {
     font-weight: 500;
 
 }
+
+.Principal__TextButton__Buttons__Button:hover {
+    /* background-color: aqua; */
+    border: 2px solid white;
+    background-color: aqua;
+    width: 230px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 8px 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 20px 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transform: rotateY(10deg, 0%) translateZ(-10px, 0%); 
+    transform-origin: left;
+
+}
