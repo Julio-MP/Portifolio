@@ -8,21 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/theme.js"></script>
 </head>
 <body>
-    <header>
-        <button onclick="trocarTema()">Trocar Tema</button>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <div class="cabecalho__menu__tema">
+                <button onclick="trocarTema()" class="cabecalho__menu__botao">Trocar Tema</button>
+            </div>
 
-        <script>
-            function trocarTema() {
-                const stylesheet = document.getElementById('theme-stylesheet');
-                if (stylesheet.getAttribute('href') === 'style.css') {
-                    stylesheet.setAttribute('href', 'style2.css');
-                } else {
-                    stylesheet.setAttribute('href', 'style.css');
-                }
-            }
-        </script>
+            <div class="cabecalho__menu__lang">
+                <button>PT-BR</button>
+                <button>ENG</button>
+                <button>IT</button>
+            </div>
+            
+        </nav>
+        
     </header>
 
     <main class="Principal">
@@ -43,8 +45,8 @@
         <img class="Containerimg" src="assets/image1.png" alt="Computer Science">
     </main>
 
-    <footer>
-
+    <footer class="rodape">
+        <a class="rodape__button" href="https://www.google.com">Entre em Contato</a>
     </footer>
 </body>
 </html>
