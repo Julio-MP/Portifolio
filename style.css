@@ -1,6 +1,12 @@
 /*Modo Dark*/ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root{
+    --cor-primaria: #030b1d;
+    --cor-secundaria: rgb(247, 246, 236);
+    --cor-terciaria: ; 
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +25,6 @@ body {
 
 header{
     color: black;;
-    padding: 16px;
     text-align: center;
     font-family:"Montserrat", sans-serif ;
     font-size: 12px;
@@ -29,39 +34,91 @@ header{
 .cabecalho__menu {
     display: flex;
     justify-content: space-around;
+    
 
 }
+
+
+.cabecalho__menu__tema{
+    display: flex; 
+    align-items: center;
+    text-align: center;
+}
+
 
 .cabecalho__menu__botao{
-    border: 2px solid aqua;
-    width: 230px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(69, 45, 175);
+    width: 100px;
     text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
-    padding: 8px 0;
-    color: rgb(247, 246, 236);
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 6px 0;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 20px 5px;
+    margin: 20px 15px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    background-color: #030b1d;
+    text-align: center;
+
 }
 
 
-
-.Change {
-    background-color: aqua;
-    width: 230px;
+.cabecalho__menu__botao:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(69, 45, 175);
+    width: 100px;
     text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
-    color: black;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 6px 0;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 20px 5px;
+    margin: 20px 15px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-
+    text-align: center;
 }
+
+.cabecalho__menu__botao__Img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+
+.cabecalho__menu__lang__button{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(69, 45, 175);
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 6px 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 20px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cabecalho__menu__lang__button:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(69, 45, 175);
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 6px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 20px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
 
 .Strong1 {
     color: aqua;
@@ -69,15 +126,6 @@ header{
 
 .Containerimg {
     /* Imagem */
-    /*
-    position: absolute;
-    width: 488px;
-    height: 550px;
-    left: 1030px;
-    top: 235px;
-    */
-
-    
     max-width: 500px;
     max-height: 500px;
     width: 550px;
@@ -168,6 +216,18 @@ header{
     font-weight: 500;
     transform: rotateY(10deg, 0%) translateZ(-10px, 0%); 
     transform-origin: left;
+
+}
+
+
+.Principal__TextButton__About{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Principal__TextButton__About__Text{
 
 }
 
