@@ -1,11 +1,17 @@
 /*Modo Dark*/ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root{
-    --cor-primaria: #030b1d;
-    --cor-secundaria: rgb(247, 246, 236);
-    --cor-terciaria: ; 
-}
+ :root{
+    --cor-body: #030b1e;
+    --cor-texto-principal: #f7f6ec;
+    --cor-texto-branco2: #ffffff;
+    --cor-texto-botões: #000000;
+    --cor-destaque: #00ffff;
+    --cor-botoes:   #452daf;
+
+    --letra1:"Montserrat", sans-serif ;
+    --letra2: 
+} 
 
 *{
     margin: 0;
@@ -16,15 +22,15 @@
 body {
     box-sizing: border-box;
     height: 100vh;
-    background-color: #030b1d;
-    color: rgb(247, 246, 236);
+    background-color: var(--cor-body);
+    color: var(--cor-texto-principal);
     display: flex;
     flex-direction: column;
 }
 
 
 header{
-    color: black;;
+    color: var(--cor-texto-botões);;
     text-align: center;
     font-family:"Montserrat", sans-serif ;
     font-size: 12px;
@@ -34,6 +40,7 @@ header{
 .cabecalho__menu {
     display: flex;
     justify-content: space-around;
+    gap: 400px;
     
 
 }
@@ -43,18 +50,19 @@ header{
     display: flex; 
     align-items: center;
     text-align: center;
+    
 }
 
 
 .cabecalho__menu__botao{
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(69, 45, 175);
+    border: 2px solid var(--cor-texto-botões);
+    background-color: var(--cor-botoes);
     width: 100px;
     text-align: center;
     border-radius: 30px;
     font-size: 13px;
     padding: 6px 0;
-    color: rgb(255, 255, 255);
+    color: var(--cor-texto-principal);
     text-decoration: none;
     margin: 20px 15px;
     font-family: "Montserrat", sans-serif;
@@ -65,14 +73,14 @@ header{
 
 
 .cabecalho__menu__botao:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(69, 45, 175);
+    border: 2px solid var(--cor-texto-principal);
+    background-color: var(--cor-botoes);
     width: 100px;
     text-align: center;
     border-radius: 30px;
     font-size: 13px;
     padding: 6px 0;
-    color: rgb(255, 255, 255);
+    color: var(--cor-texto-principal);
     text-decoration: none;
     margin: 20px 15px;
     font-family: "Montserrat", sans-serif;
@@ -88,14 +96,14 @@ header{
 
 
 .cabecalho__menu__lang__button{
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(69, 45, 175);
+    border: 2px solid var(--cor-texto-botões);
+    background-color: var(--cor-botoes);
     width: 100px;
     text-align: center;
     border-radius: 30px;
     font-size: 13px;
     padding: 6px 0;
-    color: rgb(0, 0, 0);
+    color: var(--cor-texto-botões);
     text-decoration: none;
     margin: 20px 0px;
     font-family: "Montserrat", sans-serif;
@@ -104,14 +112,14 @@ header{
 }
 
 .cabecalho__menu__lang__button:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(69, 45, 175);
+    border: 2px solid var(--cor-texto-principal);
+    background-color: var(--cor-botoes);
     width: 100px;
     text-align: center;
     border-radius: 30px;
     font-size: 13px;
     padding: 6px 0;
-    color: rgb(255, 255, 255);
+    color: var(--cor-texto-principal);
     text-decoration: none;
     margin: 20px 0px;
     font-family: "Montserrat", sans-serif;
@@ -121,7 +129,7 @@ header{
 
 
 .Strong1 {
-    color: aqua;
+    color: var(--cor-destaque);
 }
 
 .Containerimg {
@@ -146,7 +154,7 @@ header{
 
 
 .Principal__TextButton{
-    width: 600px;
+    width: 650px;
     top: 278px;
     left: 357px;
     gap: 0px;
@@ -186,13 +194,13 @@ header{
 
 .Principal__TextButton__Buttons__Button {
     /* background-color: aqua; */
-    border: 2px solid aqua;
+    border: 2px solid var(--cor-destaque);
     width: 230px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 20px;
     padding: 8px 0;
-    color: rgb(247, 246, 236);
+    color: var(--cor-texto-principal);
     text-decoration: none;
     margin: 20px 5px;
     font-family: "Montserrat", sans-serif;
@@ -201,13 +209,13 @@ header{
 }
 
 .Principal__TextButton__Buttons__Button:hover {
-    /* background-color: aqua; */
-    border: 2px solid white;
-    background-color: aqua;
+    /* background-color: var(--cor-destaque); */
+    border: 2px solid var(--cor-texto-principal);
+    background-color: var(--cor-destaque);
     width: 230px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 20px;
     padding: 8px 0;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -228,11 +236,47 @@ header{
 
 
 .Principal__TextButton__About__Text{
-
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
+.Principal__TextButton__About__Button {
+    border: 2px solid var(--cor-texto-botões);
+    background-color: var(--cor-botoes);
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 6px 0;
+    color: var(--cor-texto-principal);
+    text-decoration: none;
+    margin: 20px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+.Principal__TextButton__About__Button:hover{
+    border: 2px solid var(--cor-texto-principal);
+    background-color: var(--cor-botoes);
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 6px 0;
+    color: var(--cor-texto-principal);
+    text-decoration: none;
+    margin: 20px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+
 footer {
-    color: aqua;
+    color: var(--cor-destaque);
     padding: 20px;
     text-align: center;
     font-family:"Montserrat", sans-serif ;
@@ -243,7 +287,7 @@ footer {
 
 .rodape__button {
     text-decoration: none;
-    color: aqua;
+    color: var(--cor-destaque);
 }
 
 

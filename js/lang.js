@@ -22,8 +22,8 @@ const translations = {
         description: 'Qui puoi trovare alcuni dei miei progetti finiti',
         link1: 'Gioca miei giochi!',
         link2: 'Apri il mio GitHub',
-        link3: 'Sobre mi',
-        link4: 'Mi LinkedIn',
+        link3: 'Mi LinkedIn',
+        link4: 'Sobre mi',
         link5: 'CApicce',
     }
 };
