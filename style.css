@@ -33,7 +33,7 @@ header{
     color: var(--cor-texto-botões);;
     text-align: center;
     font-family:"Montserrat", sans-serif ;
-    font-size: 12px;
+    font-size: 0.75rem;
 
 }
 
@@ -60,7 +60,7 @@ header{
     width: 100px;
     text-align: center;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding: 6px 0;
     color: var(--cor-texto-principal);
     text-decoration: none;
@@ -78,7 +78,7 @@ header{
     width: 100px;
     text-align: center;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding: 6px 0;
     color: var(--cor-texto-principal);
     text-decoration: none;
@@ -101,7 +101,7 @@ header{
     width: 100px;
     text-align: center;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding: 6px 0;
     color: var(--cor-texto-botões);
     text-decoration: none;
@@ -117,7 +117,7 @@ header{
     width: 100px;
     text-align: center;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding: 6px 0;
     color: var(--cor-texto-principal);
     text-decoration: none;
@@ -136,8 +136,8 @@ header{
     /* Imagem */
     max-width: 500px;
     max-height: 500px;
-    width: 550px;
-    height: 600;
+    width: 50%;
+    /* height: 600; */
     
 }
 
@@ -154,7 +154,7 @@ header{
 
 
 .Principal__TextButton{
-    width: 650px;
+    width: 45%;
     top: 278px;
     left: 357px;
     gap: 0px;
@@ -168,12 +168,12 @@ header{
 }
 
 .Principal__TextButton__h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-family: "Roboto", sans-serif;
 }
 
 .Principal__TextButton__p {
-    font-size: 35px;
+    font-size: 2.15rem;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -198,7 +198,7 @@ header{
     width: 230px;
     text-align: center;
     border-radius: 16px;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 8px 0;
     color: var(--cor-texto-principal);
     text-decoration: none;
@@ -215,7 +215,7 @@ header{
     width: 230px;
     text-align: center;
     border-radius: 16px;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 8px 0;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -236,7 +236,7 @@ header{
 
 
 .Principal__TextButton__About__Text{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -246,7 +246,7 @@ header{
     width: 100px;
     text-align: center;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding: 6px 0;
     color: var(--cor-texto-principal);
     text-decoration: none;
@@ -264,7 +264,7 @@ header{
     width: 100px;
     text-align: center;
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding: 6px 0;
     color: var(--cor-texto-principal);
     text-decoration: none;
@@ -280,7 +280,7 @@ footer {
     padding: 20px;
     text-align: center;
     font-family:"Montserrat", sans-serif ;
-    font-size: 12px;
+    font-size: 0.75rem;
 
 }
 
