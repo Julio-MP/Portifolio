@@ -37,10 +37,15 @@ header{
 
 }
 
+.cabecalho{
+    padding: 0% 0% 0% 0%;
+}
+
+
 .cabecalho__menu {
     display: flex;
     justify-content: space-around;
-    gap: 400px;
+    gap: 25rem;
     
 
 }
@@ -157,7 +162,7 @@ header{
     width: 45%;
     top: 278px;
     left: 357px;
-    gap: 0px;
+    gap: 5px;
     opacity: 0px;
     padding:30px;
     display: flex;
@@ -293,4 +298,27 @@ footer {
 
 .rodape__button:hover {
     text-decoration: underline;
+}
+
+ @media(max-width: 1200px) {
+
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    
+    .Principal{
+        flex-direction: column-reverse;
+    } 
+    .Principal__TextButton__Buttons{
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Containerimg{
+        width: 35%;
+    }
 }
