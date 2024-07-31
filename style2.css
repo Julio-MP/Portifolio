@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
  :root{
-    --cor-body: #FDF7E4;
+    --cor-body: #fffdf7;
+    /* --cor-body: #FDF7E4; */
     --cor-body-0: #151515;;
     --cor-texto-principal: #000000;
     --cor-texto-branco2: #ffffff;
     --cor-texto-botões: #151515;
-    --cor-destaque: #BBAB8C;
-    --cor-botoes:   #DED0B6;
+    --cor-destaque: #e3c17b;
+    /* --cor-destaque: #BBAB8C; */
+    --cor-botoes:   #dbbc84;
+    /* --cor-botoes:   #DED0B6; */
 
     --letra1:"Montserrat", sans-serif ;
     --letra2: 
@@ -61,7 +64,7 @@ header{
 
 
 .cabecalho__menu__botao{
-    border: 2px solid var(--cor-texto-branco2);
+    border: 2px solid var(--cor-body);
     background-color: var(--cor-botoes);
     width: 100px;
     text-align: center;
@@ -102,7 +105,7 @@ header{
 
 
 .cabecalho__menu__lang__button{
-    border: 2px solid var(--cor-texto-branco2);
+    border: 2px solid var(--cor-body);
     background-color: var(--cor-botoes);
     width: 100px;
     text-align: center;
