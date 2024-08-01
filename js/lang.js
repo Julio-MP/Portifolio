@@ -24,7 +24,7 @@ const translations = {
         link2: 'Apri il mio GitHub',
         link3: 'Mi LinkedIn',
         link4: 'Sobre mi',
-        link5: 'CApicce',
+        link5: 'Capicce',
     }
 };
 

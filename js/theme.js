@@ -5,10 +5,10 @@ function aplicarTema() {
 
     if (tema === 'claro') {
         stylesheet.setAttribute('href', 'style2.css');
-        if (img) img.setAttribute('src', 'assets/profile-pic (2).png');
+        if (img) img.setAttribute('src', 'assets/profile-pic (4).png');
     } else {
         stylesheet.setAttribute('href', 'style.css');
-        if (img) img.setAttribute('src', 'assets/profile-pic (1).png');
+        if (img) img.setAttribute('src', 'assets/profile-pic (3).png');
     }
 }
 
@@ -21,11 +21,11 @@ function trocarTema() {
     if (temaAtual === 'claro') {
         localStorage.setItem('tema', 'escuro');
         stylesheet.setAttribute('href', 'style.css');
-        if (img) img.setAttribute('src', 'assets/profile-pic (1).png');
+        if (img) img.setAttribute('src', 'assets/profile-pic (3).png');
     } else {
         localStorage.setItem('tema', 'claro');
         stylesheet.setAttribute('href', 'style2.css');
-        if (img) img.setAttribute('src', 'assets/profile-pic (2).png');
+        if (img) img.setAttribute('src', 'assets/profile-pic (4).png');
     }
 }
 
