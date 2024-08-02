@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
  :root{
-    --cor-body: #030b1e;
+    --cor-body: #01040b;
     --cor-texto-principal: #f7f6ec;
     --cor-texto-branco2: #ffffff;
     --cor-texto-botões: #000000;
     --cor-destaque: #00ffff;
-    --cor-botoes:   #452daf;
+    --cor-botoes:  #C0C0C0 ;
 
     --letra1:"Montserrat", sans-serif ;
     --letra2: 
@@ -139,9 +139,8 @@ header{
 
 .Containerimg {
     /* Imagem */
-    max-width: 500px;
-    max-height: 500px;
-    width: 50%;
+
+    width: 25%;
     /* height: 600; */
     
 }
