@@ -315,7 +315,7 @@ footer {
 
 .rodape__button {
     text-decoration: none;
-    color: var(--cor-destaque);
+    background-color: var(--cor-destaque);
 }
 
 
