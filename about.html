@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="js/theme.js"></script>
+    <script src="js/lang.js"></script>
 </head>
 <body>
     <body>
@@ -21,9 +22,9 @@
                 </div>
     
                 <div class="cabecalho__menu__lang">
-                    <button class="cabecalho__menu__lang__button">PT-BR</button>
-                    <button class="cabecalho__menu__lang__button">ENG</button>
-                    <button class="cabecalho__menu__lang__button">IT</button>
+                    <button class="cabecalho__menu__lang__button" onclick="changeLanguage('pt-br')">PT-BR</button>
+                    <button class="cabecalho__menu__lang__button" onclick="changeLanguage('en')">EN</button>
+                    <button  class="cabecalho__menu__lang__button"onclick="changeLanguage('it')">IT</button>
                 </div>
                 
             </nav>
@@ -32,19 +33,17 @@
     
         <main class="Principal">
             <section class="Principal__TextButton__2">
-                <h1 class="Principal__TextButton__2h1">About Me </h1>
+                <h1 id="title2" class="Principal__TextButton__2h1">About Me </h1>
                 <!-- <p class="Principal__TextButton__p">Subtitulo</p> -->
                 <div class="Principal__TextButton__About"></div>
-                    <p class="Principal__TextButton__About__Text">
+                    <p id="about" class="Principal__TextButton__About__Text">
                         Produção: um retorno triunfal e dedicação pessoal de Miyazaki
                         A produção de “O Menino e a Garça” marca o retorno triunfal de Hayao Miyazaki, que havia se aposentado anteriormente. Iniciada em julho de 2016, a produção foi conduzida com paixão e dedicação pelo próprio Miyazaki. Esse retorno não apenas revitalizou o Studio Ghibli, mas também atraiu a atenção global para o projeto.
                         
                         O título inicial do filme em inglês, “How Do You Live?”, foi revelado em outubro de 2017. Toshio Suzuki, produtor do Studio Ghibli, compartilhou que Miyazaki dedicou o filme ao seu neto, uma mensagem tocante que ressoa com a temática do filme sobre a vida, a morte e as relações familiares.
                         
                         Inicialmente planejado para estrear a tempo dos Jogos Olímpicos de 2020, a produção enfrentou desafios e atrasos, especialmente devido às restrições impostas pela pandemia de Covid-19. No entanto, a perseverança da equipe resultou em uma obra-prima. 
-                    </p> 
-                    <br> 
-                    <p class="Principal__TextButton__About__Text">
+                    <br> <br> 
                         Lançamento no ocidente de O Menino e a Garça
                         A confirmação de que “O Menino e a Garça” será lançado nos cinemas norte-americanos com o título “The Boy and the Heron” em 2023 pela distribuidora Gkids é uma notícia emocionante para os fãs fora do Japão. Isso sugere uma confiança sólida na capacidade do filme de transcender as barreiras culturais e encantar audiências internacionais.
                         
@@ -53,7 +52,7 @@
                         “O Menino e a Garça” é sem sombra de dúvidas um dos filmes mais aguardados de Hayao Miyazaki e do Studio Ghibli como um todo e, a sua estreia colossal no Japão é prova disso. O filme conta uma história emocionante e repleta de sentimentos e significados e é mais uma obra-prima do renomado estúdio.
                     </p>
 
-                    <a class="Principal__TextButton__About__Button" href="index.html">Voltar</a>
+                    <a id="back" class="Principal__TextButton__About__Button" href="index.html">Voltar</a>
                 <!-- <div class="Principal__TextButton__Buttons">
                     <div class="Principal__TextButton__Buttons1">
                         <a id="Color" class="Principal__TextButton__Buttons__Button" href="https://julio-games.itch.io/">Play my Games!</a>
@@ -69,7 +68,7 @@
         </main>
     
         <footer class="rodape">
-            <a class="rodape__button" href="https://www.google.com">Entre em Contato</a>
+            <a id="link" class="rodape__button" href="https://www.google.com">Entre em Contato</a>
         </footer>
     </body>
 </body>
