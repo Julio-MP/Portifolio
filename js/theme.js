@@ -1,34 +1,32 @@
 function aplicarTema() {
     const stylesheet = document.getElementById('theme-stylesheet');
-    const img = document.getElementById('img1');
     const tema = localStorage.getItem('tema');
+    const img = document.getElementById('img1');
 
     if (tema === 'claro') {
-        stylesheet.setAttribute('href', 'style2.css');
+        stylesheet.setAttribute('href', 'styles/style2.css');
         if (img) img.setAttribute('src', 'assets/profile-pic (4).png');
     } else {
-        stylesheet.setAttribute('href', 'style.css');
+        stylesheet.setAttribute('href', 'styles/style.css');
         if (img) img.setAttribute('src', 'assets/profile-pic (3).png');
     }
 }
 
 // Função para trocar o tema e salvar no localStorage
 function trocarTema() {
-    const stylesheet = document.getElementById('theme-stylesheet');
-    const img = document.getElementById('img1');
     const temaAtual = localStorage.getItem('tema');
+    const img = document.getElementById('img1');
 
     if (temaAtual === 'claro') {
         localStorage.setItem('tema', 'escuro');
-        stylesheet.setAttribute('href', 'style.css');
         if (img) img.setAttribute('src', 'assets/profile-pic (3).png');
     } else {
         localStorage.setItem('tema', 'claro');
-        stylesheet.setAttribute('href', 'style2.css');
         if (img) img.setAttribute('src', 'assets/profile-pic (4).png');
     }
+
+    aplicarTema();  // Call aplicarTema to apply the theme immediately
 }
 
 // Chamar a função aplicarTema ao carregar a página
-document.addEventListener('DOMContentLoaded', aplicarTema);
-
+document.addEventListener('DOMContentLoaded', aplicarTema); 
