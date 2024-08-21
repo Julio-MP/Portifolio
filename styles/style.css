@@ -231,72 +231,6 @@ header{
 
 }
 
-.Principal__TextButton__2 {
-        width: 45%;
-        top: 278px;
-        left: 357px;
-        gap: 5px;
-        opacity: 0px;
-        padding:30px;
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        
-    
-    
-}
-
-.Principal__TextButton__2h1{
-    font-size: 3.125rem;
-    font-family: "Roboto", sans-serif;
-}
-
-
-.Principal__TextButton__About{
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-.Principal__TextButton__About__Text{
-    font-size: 0.9375rem;
-    font-family: "Montserrat", sans-serif;
-}
-
-.Principal__TextButton__About__Button {
-    border: 2px solid var(--cor-texto-botões);
-    background-color: var(--cor-botoes);
-    width: 100px;
-    text-align: center;
-    border-radius: 30px;
-    font-size: 0.8125rem;
-    padding: 6px 0;
-    color: var(--cor-texto-principal);
-    text-decoration: none;
-    margin: 20px 15px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    text-align: center;
-}
-
-
-
-.Principal__TextButton__About__Button:hover{
-    border: 2px solid var(--cor-texto-principal);
-    background-color: var(--cor-botoes);
-    width: 100px;
-    text-align: center;
-    border-radius: 30px;
-    font-size: 0.8125rem;
-    padding: 6px 0;
-    color: var(--cor-texto-principal);
-    text-decoration: none;
-    margin: 20px 15px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    text-align: center;
-}
 
 
 footer {
@@ -318,6 +252,150 @@ footer {
 .rodape__button:hover {
     text-decoration: underline;
 }
+
+
+
+/* About Part  */
+
+
+.Principal__TextButton__2 {
+    width: 45%;
+    top: 278px;
+    left: 357px;
+    gap: 5px;
+    opacity: 0px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+
+
+}
+
+.Principal__TextButton__2h1{
+font-size: 3.125rem;
+font-family: "Roboto", sans-serif;
+}
+
+
+.Principal__TextButton__About{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.Principal__TextButton__About__Text{
+font-size: 0.9375rem;
+font-family: "Montserrat", sans-serif;
+}
+
+.Principal__TextButton__About__Button {
+border: 2px solid var(--cor-texto-botões);
+background-color: var(--cor-botoes);
+width: 100px;
+text-align: center;
+border-radius: 30px;
+font-size: 0.8125rem;
+padding: 6px 0;
+color: var(--cor-texto-principal);
+text-decoration: none;
+margin: 20px 15px;
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+text-align: center;
+}
+
+
+
+.Principal__TextButton__About__Button:hover{
+border: 2px solid var(--cor-texto-principal);
+background-color: var(--cor-botoes);
+width: 100px;
+text-align: center;
+border-radius: 30px;
+font-size: 0.8125rem;
+padding: 6px 0;
+color: var(--cor-texto-principal);
+text-decoration: none;
+margin: 20px 15px;
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+text-align: center;
+}
+
+
+
+/* Game Part */
+
+.gamePrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    gap: 0px;
+}
+
+.Principal__gameTextButton {
+    width: 55%;
+    top: 278px;
+    left: 357px;
+    gap: 5px;
+    opacity: 0px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.Principal__TextButton__nameList {
+    font-size: 3.125rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.Principal__TextButton__text {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.Principal__TextButton__text__pGame {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    padding-right: 150px;
+    padding-left: 50px;
+}
+
+
+.Principal__TextButton__gameList {
+    display: flex;
+    flex-direction:row;
+    gap: 200px;
+    padding: 30px;
+}
+
+.Principal__TextButton__gameList__gameButtons1 {
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Principal__TextButton__gameList__gameButtons2 {
+    display: grid;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+/* CellPhone */
+
 
  @media(max-width: 1200px) {
 

@@ -25,7 +25,7 @@ function trocarTema() {
         if (img) img.setAttribute('src', 'assets/profile-pic (4).png');
     }
 
-    aplicarTema();  // Call aplicarTema to apply the theme immediately
+    aplicarTema()
 }
 
 // Chamar a função aplicarTema ao carregar a página
