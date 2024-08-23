@@ -8,10 +8,6 @@ const translations = {
         link4: 'Sobre mim',
         link5: 'Entre em Contato',
         
-        title2: 'Sobre mim',
-        back: 'Voltar',
-        link: 'Entre em contato',
-        text: 'PT',
     },
     'en': {
         title: 'Hello!<br> Welcome to <strong class="Strong1">my Portfolio!</strong>',
@@ -22,10 +18,6 @@ const translations = {
         link4: "About Me",
         link5: 'Contact me',
         
-        title2: 'About',
-        back: 'Back',
-        link: 'Contact me',
-        text: 'EN',
     },
     'it': {
         title: 'Ciao!<br> Benvenuto nel <strong class="Strong1">mio Portfolio!</strong>',
@@ -36,64 +28,67 @@ const translations = {
         link4: 'Sobre mi',
         link5: 'Contattami',
         
-        title2: 'Sobre mi',
-        back: 'Volte',
-        link: 'Contattami',
-        text: 'ITA',
     }
 };
 
 
 
-
-
-
-
 function changeLanguage(lang) {
-    if (window.location.pathname.includes('about.html')) {
-        if (document.getElementById('title2')) {
-            document.getElementById('title2').innerHTML = translations[lang].title2;
-        }
-        if (document.getElementById('back')) {
-            document.getElementById('back').textContent = translations[lang].back;
-        }
-        if (document.getElementById('link')) {
-            document.getElementById('link').textContent = translations[lang].link;
-        }
-        if (document.getElementById('about')) {
-            document.getElementById('about').textContent = translations[lang].text;
-        }
-    } else {
-        if (document.getElementById('title')) {
-            document.getElementById('title').innerHTML = translations[lang].title;
-        }
-        
-        if (document.getElementById('text')) {
-            document.getElementById('text').textContent = translations[lang].description;
-            
-        }
-        
-        if (document.getElementById('Link1')) {
-            document.getElementById('Link1').textContent = translations[lang].link1;
-        }
-        
-        if (document.getElementById('Link2')) {
-            document.getElementById('Link2').textContent = translations[lang].link2;
-        }
-        
-        if (document.getElementById('Link3')) {
-            document.getElementById('Link3').textContent = translations[lang].link3;
-        }
-
-        if (document.getElementById('Link4')) {
-            document.getElementById('Link4').textContent = translations[lang].link4;
-        }
-
-        if (document.getElementById('Link5')) {
-            document.getElementById('Link5').textContent = translations[lang].link5;
-        }
-    }
+    document.getElementById('title').innerHTML = translations[lang].title;
+    document.getElementById('text').textContent = translations[lang].description;
+    document.getElementById('Link1').textContent = translations[lang].link1;
+    document.getElementById('Link2').textContent = translations[lang].link2;
+    document.getElementById('Link3').textContent = translations[lang].link3;
+    document.getElementById('Link4').textContent = translations[lang].link4;
+    document.getElementById('Link5').textContent = translations[lang].link5;
 }
+
+
+// function changeLanguage(lang) {
+//     if (window.location.pathname.includes('about.html')) {
+//         if (document.getElementById('title2')) {
+//             document.getElementById('title2').innerHTML = translations[lang].title2;
+//         }
+//         if (document.getElementById('back')) {
+//             document.getElementById('back').textContent = translations[lang].back;
+//         }
+//         if (document.getElementById('link')) {
+//             document.getElementById('link').textContent = translations[lang].link;
+//         }
+//         if (document.getElementById('about')) {
+//             document.getElementById('about').textContent = translations[lang].text;
+//         }
+//     } else {
+//         if (document.getElementById('title')) {
+//             document.getElementById('title').innerHTML = translations[lang].title;
+//         }
+        
+//         if (document.getElementById('text')) {
+//             document.getElementById('text').textContent = translations[lang].description;
+            
+//         }
+        
+//         if (document.getElementById('Link1')) {
+//             document.getElementById('Link1').textContent = translations[lang].link1;
+//         }
+        
+//         if (document.getElementById('Link2')) {
+//             document.getElementById('Link2').textContent = translations[lang].link2;
+//         }
+        
+//         if (document.getElementById('Link3')) {
+//             document.getElementById('Link3').textContent = translations[lang].link3;
+//         }
+
+//         if (document.getElementById('Link4')) {
+//             document.getElementById('Link4').textContent = translations[lang].link4;
+//         }
+
+//         if (document.getElementById('Link5')) {
+//             document.getElementById('Link5').textContent = translations[lang].link5;
+//         }
+//     }
+// }
 
 // function changeLanguage(lang) {
 //     document.getElementById('title').innerHTML = translations[lang].title;
@@ -110,3 +105,6 @@ function changeLanguage(lang) {
 //     document.getElementById('about').textContent = translations[lang].text;
 
 // }
+
+
+
