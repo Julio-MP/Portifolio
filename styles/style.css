@@ -351,8 +351,8 @@ text-align: center;
 .Principal__TextButton__text {
     display: flex;
     flex-direction: row;
-    gap: 200px;
-    padding: 50px;
+    gap: 230px;
+    padding: 50px 0px 0px 30px;
 }
 
 
