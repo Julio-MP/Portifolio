@@ -135,6 +135,7 @@ header{
 
 .Strong1 {
     color: var(--cor-destaque);
+    text-decoration: none;
 }
 
 .Containerimg {
@@ -274,56 +275,65 @@ footer {
 }
 
 .Principal__TextButton__2h1{
-font-size: 3.125rem;
-font-family: "Roboto", sans-serif;
+    font-size: 3.125rem;
+    font-family: "Roboto", sans-serif;
 }
 
 
 .Principal__TextButton__About{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
+.Principal__TextButton__About__Main{
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 100px;
+
+}
 
 .Principal__TextButton__About__Text{
-font-size: 0.9375rem;
-font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    padding-right: 100px;
 }
 
 .Principal__TextButton__About__Button {
-border: 2px solid var(--cor-texto-botões);
-background-color: var(--cor-botoes);
-width: 100px;
-text-align: center;
-border-radius: 30px;
-font-size: 0.8125rem;
-padding: 6px 0;
-color: var(--cor-texto-botões);
-text-decoration: none;
-margin: 20px 15px;
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
-text-align: center;
+    border: 2px solid var(--cor-texto-botões);
+    background-color: var(--cor-botoes);
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 0.8125rem;
+    padding: 6px 0;
+    color: var(--cor-texto-botões);
+    text-decoration: none;
+    margin: 20px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
 }
 
 
 
 .Principal__TextButton__About__Button:hover{
-border: 2px solid var(--cor-texto-principal);
-background-color: var(--cor-botoes);
-width: 100px;
-text-align: center;
-border-radius: 30px;
-font-size: 0.8125rem;
-padding: 6px 0;
-color: var(--cor-texto-principal);
-text-decoration: none;
-margin: 20px 15px;
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
-text-align: center;
-}
+    border: 2px solid var(--cor-texto-principal);
+    background-color: var(--cor-botoes);
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 0.8125rem;
+    padding: 6px 0;
+    color: var(--cor-texto-principal);
+    text-decoration: none;
+    margin: 20px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    }
 
 
 
@@ -344,19 +354,21 @@ text-align: center;
     font-size: 3.125rem;
     font-family: "Roboto", sans-serif;
     text-align: center;
+    padding-bottom: 60px;
     
 }
 
 
-.Principal__TextButton__text {
-    display: flex;
-    flex-direction: row;
-    gap: 230px;
-    padding: 50px 0px 0px 30px;
+
+.Principal__TextButton__text__pGame1 {
+    font-size: 2.5rem;
+    font-family: "Mouse Memoirs", sans-serif;
+    text-decoration:underline var(--cor-destaque);
+    padding-left: 45px;
 }
 
 
-.Principal__TextButton__text__pGame {
+.Principal__TextButton__text__pGame2 {
     font-size: 2.5rem;
     font-family: "Mouse Memoirs", sans-serif;
     text-decoration:underline var(--cor-destaque);
@@ -447,7 +459,7 @@ text-align: center;
 
 
 
-                                                            /* CellPhone */
+                                                            /* CellPhone (Principal)*/
 
 
  @media(max-width: 1200px) {
@@ -487,6 +499,45 @@ text-align: center;
     .Principal__TextButton__2h1{
         text-align: center;
         padding: 0% 0% 5% 0% ;
+    }
+
+                                                            /* CellPhone (About)*/
+
+    .Principal__TextButton__About__Text{
+        font-size: 1.55rem;
+        font-family: "Montserrat", sans-serif;
+        padding-right: 0px;
+    }
+
+
+    .Principal__TextButton__About__Main{
+        font-size: 2rem;
+        font-family: "Montserrat", sans-serif;
+        padding: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+
+                                                            /* CellPhone (Game)*/
+
+    
+    .Principal__TextButton__gameList {
+        display: flex;
+        flex-direction:column;
+        gap: 50px;
+    }
+    
+    .Principal__TextButton__text{
+        display: flex;
+        flex-direction: column;
+        gap: 230px;
+        padding: 50px 0px 0px 30px;
+    }
+
+    .Principal__TextButton__gameList__gameButtons2{
+        padding-bottom: 60px;
     }
 }
 
